@@ -3,7 +3,9 @@ function init(self)
 	-- Learn more: https://defold.com/manuals/script/
 	-- Remove this function if not needed
 	msg.post(".", "acquire_input_focus")
+	
 	self.Exit = gui.get_node("Exit")
+	self.NombreDeTours = gui.get_node("NombreDeTours")
 	self.j1 = gui.get_node("j1")
 	self.j2 = gui.get_node("j2")
 	self.j3 = gui.get_node("j3")
@@ -61,6 +63,7 @@ local function playclick()
 end
 
 function showscore(self)
+	gui.set_text(self.NombreDeTours, NombreDeTours)
 	if NumberPlayer == 1 then
 		gui.set_enabled(self.j2, false)
 		gui.set_enabled(self.j3, false)

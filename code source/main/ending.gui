@@ -7,6 +7,10 @@ fonts {
   name: "little_el_volcan"
   font: "/preset/little_el_volcan.font"
 }
+fonts {
+  name: "medium_el_volcan"
+  font: "/preset/medium_el_volcan.font"
+}
 textures {
   name: "main"
   texture: "/assets/main.atlas"
@@ -144,7 +148,7 @@ nodes {
 }
 nodes {
   position {
-    x: 100.0
+    x: 88.0
     y: 700.0
     z: 0.0
     w: 1.0
@@ -269,7 +273,7 @@ nodes {
 }
 nodes {
   position {
-    x: 100.0
+    x: 88.0
     y: 580.0
     z: 0.0
     w: 1.0
@@ -394,7 +398,7 @@ nodes {
 }
 nodes {
   position {
-    x: 100.0
+    x: 88.0
     y: 460.0
     z: 0.0
     w: 1.0
@@ -519,7 +523,7 @@ nodes {
 }
 nodes {
   position {
-    x: 100.0
+    x: 88.0
     y: 340.0
     z: 0.0
     w: 1.0
@@ -644,7 +648,7 @@ nodes {
 }
 nodes {
   position {
-    x: 100.0
+    x: 88.0
     y: 220.0
     z: 0.0
     w: 1.0
@@ -769,7 +773,7 @@ nodes {
 }
 nodes {
   position {
-    x: 100.0
+    x: 88.0
     y: 100.0
     z: 0.0
     w: 1.0
@@ -894,7 +898,7 @@ nodes {
 }
 nodes {
   position {
-    x: 220.0
+    x: 208.0
     y: 700.0
     z: 0.0
     w: 1.0
@@ -1019,7 +1023,7 @@ nodes {
 }
 nodes {
   position {
-    x: 220.0
+    x: 208.0
     y: 580.0
     z: 0.0
     w: 1.0
@@ -1144,7 +1148,7 @@ nodes {
 }
 nodes {
   position {
-    x: 220.0
+    x: 208.0
     y: 460.0
     z: 0.0
     w: 1.0
@@ -1269,7 +1273,7 @@ nodes {
 }
 nodes {
   position {
-    x: 220.0
+    x: 208.0
     y: 340.0
     z: 0.0
     w: 1.0
@@ -1394,7 +1398,7 @@ nodes {
 }
 nodes {
   position {
-    x: 220.0
+    x: 208.0
     y: 220.0
     z: 0.0
     w: 1.0
@@ -1519,7 +1523,7 @@ nodes {
 }
 nodes {
   position {
-    x: 220.0
+    x: 208.0
     y: 100.0
     z: 0.0
     w: 1.0
@@ -1644,7 +1648,7 @@ nodes {
 }
 nodes {
   position {
-    x: 340.0
+    x: 328.0
     y: 700.0
     z: 0.0
     w: 1.0
@@ -1769,7 +1773,7 @@ nodes {
 }
 nodes {
   position {
-    x: 340.0
+    x: 328.0
     y: 580.0
     z: 0.0
     w: 1.0
@@ -1894,7 +1898,7 @@ nodes {
 }
 nodes {
   position {
-    x: 340.0
+    x: 328.0
     y: 460.0
     z: 0.0
     w: 1.0
@@ -2019,7 +2023,7 @@ nodes {
 }
 nodes {
   position {
-    x: 340.0
+    x: 328.0
     y: 340.0
     z: 0.0
     w: 1.0
@@ -2144,7 +2148,7 @@ nodes {
 }
 nodes {
   position {
-    x: 340.0
+    x: 328.0
     y: 220.0
     z: 0.0
     w: 1.0
@@ -2269,7 +2273,7 @@ nodes {
 }
 nodes {
   position {
-    x: 340.0
+    x: 328.0
     y: 100.0
     z: 0.0
     w: 1.0
@@ -2394,7 +2398,7 @@ nodes {
 }
 nodes {
   position {
-    x: 460.0
+    x: 448.0
     y: 700.0
     z: 0.0
     w: 1.0
@@ -2519,7 +2523,7 @@ nodes {
 }
 nodes {
   position {
-    x: 460.0
+    x: 448.0
     y: 580.0
     z: 0.0
     w: 1.0
@@ -2644,7 +2648,7 @@ nodes {
 }
 nodes {
   position {
-    x: 460.0
+    x: 448.0
     y: 460.0
     z: 0.0
     w: 1.0
@@ -2769,7 +2773,7 @@ nodes {
 }
 nodes {
   position {
-    x: 460.0
+    x: 448.0
     y: 340.0
     z: 0.0
     w: 1.0
@@ -2894,7 +2898,7 @@ nodes {
 }
 nodes {
   position {
-    x: 460.0
+    x: 448.0
     y: 220.0
     z: 0.0
     w: 1.0
@@ -3019,7 +3023,7 @@ nodes {
 }
 nodes {
   position {
-    x: 460.0
+    x: 448.0
     y: 100.0
     z: 0.0
     w: 1.0
@@ -3202,8 +3206,8 @@ nodes {
 }
 nodes {
   position {
-    x: 270.0
-    y: 874.0
+    x: 258.0
+    y: 871.0
     z: 0.0
     w: 1.0
   }
@@ -3524,6 +3528,138 @@ nodes {
   line_break: false
   parent: "Titre"
   layer: ""
+  inherit_alpha: true
+  alpha: 1.0
+  outline_alpha: 1.0
+  shadow_alpha: 1.0
+  template_node_child: false
+  text_leading: 1.0
+  text_tracking: 0.0
+  custom_type: 0
+  enabled: true
+  visible: true
+  material: ""
+}
+nodes {
+  position {
+    x: 130.0
+    y: 941.0
+    z: 0.0
+    w: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+    z: 0.0
+    w: 1.0
+  }
+  color {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  type: TYPE_TEXT
+  blend_mode: BLEND_MODE_ALPHA
+  text: "Nombre de tours :"
+  font: "medium_el_volcan"
+  id: "textnbtours"
+  xanchor: XANCHOR_NONE
+  yanchor: YANCHOR_NONE
+  pivot: PIVOT_CENTER
+  outline {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  adjust_mode: ADJUST_MODE_FIT
+  line_break: false
+  layer: "Front"
+  inherit_alpha: true
+  alpha: 1.0
+  outline_alpha: 1.0
+  shadow_alpha: 1.0
+  template_node_child: false
+  text_leading: 1.0
+  text_tracking: 0.0
+  custom_type: 0
+  enabled: true
+  visible: true
+  material: ""
+}
+nodes {
+  position {
+    x: 300.0
+    y: 941.0
+    z: 0.0
+    w: 1.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  size {
+    x: 200.0
+    y: 100.0
+    z: 0.0
+    w: 1.0
+  }
+  color {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  type: TYPE_TEXT
+  blend_mode: BLEND_MODE_ALPHA
+  text: "0"
+  font: "EL_VOLCAN_black"
+  id: "NombreDeTours"
+  xanchor: XANCHOR_NONE
+  yanchor: YANCHOR_NONE
+  pivot: PIVOT_CENTER
+  outline {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  shadow {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+    w: 1.0
+  }
+  adjust_mode: ADJUST_MODE_FIT
+  line_break: false
+  layer: "Front"
   inherit_alpha: true
   alpha: 1.0
   outline_alpha: 1.0

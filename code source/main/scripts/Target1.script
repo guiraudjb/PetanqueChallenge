@@ -63,6 +63,8 @@ function on_message(self, message_id, message, sender)
 		if cibleEnCours==1 then
 			missCount()
 			reste = reste -1
+			sprite.play_flipbook("#sprite", "lowBoule")
+			self.runningAnimation=false
 			gererInterruptions()
 		end
 
