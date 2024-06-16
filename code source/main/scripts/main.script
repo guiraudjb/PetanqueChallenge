@@ -3,7 +3,8 @@ function init(self)
 	NumberPlayer = 2
 	NombreDeTours = 3
 	---print(scorejoueurs[1])
-	SoundVolume=false
+	SoundVolume=true
+	animatelogo=true
 	self.currentScene=""
 	changeScene(self, "MainMenu")
 end

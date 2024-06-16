@@ -74,7 +74,13 @@ function init(self)
 	if SoundVolume == true then
 		sound.play("IntroSound#intro")
 	end
-	animateLogos4(self)
+	if animatelogo == true then
+		animatelogo=false
+		animateLogos4(self)
+	else
+		gui.set_alpha(self.gameLogo, 1)
+		animateLogos5(self)
+	end
 end
 
 
