@@ -1,0 +1,36 @@
+key_trigger {
+  input: KEY_E
+  action: "hit4"
+}
+key_trigger {
+  input: KEY_R
+  action: "hit6"
+}
+key_trigger {
+  input: KEY_T
+  action: "hit5"
+}
+key_trigger {
+  input: KEY_F
+  action: "hit7"
+}
+key_trigger {
+  input: KEY_C
+  action: "hit2"
+}
+key_trigger {
+  input: KEY_V
+  action: "hit1"
+}
+key_trigger {
+  input: KEY_B
+  action: "hit3"
+}
+key_trigger {
+  input: KEY_H
+  action: "CaptChoc"
+}
+mouse_trigger {
+  input: MOUSE_BUTTON_1
+  action: "touch"
+}
